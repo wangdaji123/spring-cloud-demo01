@@ -10,4 +10,5 @@ public interface Service3Client {
     //@GetMapping("/test/")
     @RequestMapping(method = RequestMethod.GET,path = "/test/")
     String test();
+
 }
